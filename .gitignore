@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Env
+.env
+
+# ML models
+*.pt
+*.bin
+*.h5
+
+# OS
+.DS_Store
+backend/app/artifacts/distilbert/model.safetensors
+
+# ML artifacts
+backend/app/artifacts/
+*.joblib
+*.safetensors
+*.db
+*.txt
+
+# optional (keep if large)
+vocab.txt
+tokenizer.json
